@@ -1,0 +1,82 @@
+article.article {
+  max-width: 38rem;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    color: #353535;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  p.author,
+  p.date,
+  p.reading-time {
+    text-align: center;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+
+  .title-divider {
+    width: 5rem;
+    margin: 1rem auto 1rem auto;
+    height: 0.5rem;
+    background-color: #353535;
+  }
+
+  .title-details {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  img {
+    display: block;
+    margin: 1.5rem auto 1rem auto;
+    max-width: 100%;
+  }
+
+  blockquote {
+    padding: 0 2rem 0 2rem;
+  }
+
+  ul,
+  ol {
+    margin: 1rem 0 1rem 0;
+    padding-left: 2.5rem;
+  }
+
+  ul {
+    list-style: disc inside;
+  }
+
+  section.content {
+    p+p {
+      text-indent: 3rem;
+    }
+  }
+}

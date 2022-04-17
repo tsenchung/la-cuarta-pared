@@ -1,0 +1,15 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  justify-content: center;
+}
+
+h1 {
+  line-height: normal;
+}
+
+@media screen and (max-width: 550px) {
+  .list {
+    display: block;
+  }
+}
