@@ -9,4 +9,5 @@ export interface Entry {
   draft: boolean;
   tags?: string[];
   readingTime: number;
+  category: string;
 }
