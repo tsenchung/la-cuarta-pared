@@ -7,10 +7,8 @@
     author: '',
     date: '',
     path: '',
-    thumbnail: '',
     placement: '',
     linktitle: '',
-    draft: false,
     readingTime: 1,
     category: 'article'
   };
@@ -23,4 +21,5 @@
       <p>{entry.author}</p>
     </a>
   </section>
+  <hr />
 </article>

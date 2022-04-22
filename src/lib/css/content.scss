@@ -9,10 +9,10 @@ article.article {
   h4,
   h5,
   h6 {
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 700;
     line-height: normal;
-    color: #353535;
+    color: #212121;
   }
 
   h1 {
@@ -75,7 +75,7 @@ article.article {
   }
 
   section.content {
-    p+p {
+    p + p {
       text-indent: 3rem;
     }
   }

@@ -37,6 +37,7 @@
       {#each featured as entry (entry.path)}
         <FeaturedPost {entry} />{/each}
     </section>
+    <hr />
     <section class="podcasts">
       <a href="/podcasts"><h2>Podcasts &#10095;</h2></a>
       <section class="other-categories">

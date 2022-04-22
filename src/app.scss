@@ -11,6 +11,16 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+a {
+  color: #008779;
+}
+
+::selection {
+  color: black;
+  background-color: #00fbbc;
+}
+
 #app {
   display: flex;
   flex-direction: column;
@@ -50,13 +60,17 @@ nav {
   margin: auto;
 }
 
-nav a {
-  color: #031926;
+nav a.navbar-item {
+  color: #008779;
 }
 
 nav a.navbar-item:hover,
 a:hover {
-  color: #3f88c5;
+  color: #00433c;
+}
+
+footer a:hover {
+  color: #00fbbc;
 }
 
 .logo {
@@ -80,14 +94,14 @@ main {
 }
 
 footer {
-  color: white;
-  background-color: #353a47;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #253d5b;
   font-size: 0.8rem;
 
   .footer-logo {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.5rem;
-    color: white !important;
+    color: rgba(255, 255, 255, 0.87);
   }
   span {
     line-height: 2;

@@ -6,7 +6,7 @@ article.recent {
 
   .detail {
     position: relative;
-    background-color: white;
+    flex-grow: 1;
 
     h1 {
       font-family: 'Libre Baskerville', serif;
@@ -14,13 +14,13 @@ article.recent {
       font-weight: bold;
       text-align: center;
       margin-bottom: 0.5rem;
-      color: #4a4a4a;
+      color: #212121;
     }
 
     p {
       text-align: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      color: #4a4a4a;
+      color: #212121;
     }
   }
 }
