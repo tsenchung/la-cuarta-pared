@@ -82,9 +82,13 @@ main {
 footer {
   color: white;
   background-color: #353a47;
-  font-family: 'Roboto', sans-serif;
   font-size: 0.8rem;
 
+  .footer-logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    color: white !important;
+  }
   span {
     line-height: 2;
   }

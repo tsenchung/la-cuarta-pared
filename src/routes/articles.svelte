@@ -3,7 +3,9 @@
   import { all } from '$lib/content';
   import RecentPost from '$lib/components/RecentPost/RecentPost.svelte';
 
-  const articles = all.sort((a, b) => b.date.localeCompare(a.date));
+  const articles = all
+    .filter(({ category }) => category == 'article')
+    .sort((a, b) => b.date.localeCompare(a.date));
 </script>
 
 <svelte:head>

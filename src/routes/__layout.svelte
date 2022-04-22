@@ -23,7 +23,7 @@
 <slot />
 <footer>
   <section class="content">
-    <a href="/">La Cuarta Pared</a>
+    <a class="footer-logo" href="/">La Cuarta Pared</a>
 
     <div class="grid">
       <section class="disclaimer">

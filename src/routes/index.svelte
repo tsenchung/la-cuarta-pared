@@ -38,21 +38,21 @@
         <FeaturedPost {entry} />{/each}
     </section>
     <section class="podcasts">
-      <a href="/podcasts"><h2>Podcasts &#8250;</h2></a>
+      <a href="/podcasts"><h2>Podcasts &#10095;</h2></a>
       <section class="other-categories">
         {#each podcasts as entry (entry.path)}
           <RecentPost {entry} />{/each}
       </section>
     </section>
     <section class="articles">
-      <a href="/articles"><h2>Artículos &#8250;</h2></a>
+      <a href="/articles"><h2>Artículos &#10095;</h2></a>
       <section class="other-categories">
         {#each articles as entry (entry.path)}
           <RecentPost {entry} />{/each}
       </section>
     </section>
     <section class="blog">
-      <a href="/blog"><h2>Blog &#8250;</h2></a>
+      <a href="/blog"><h2>Blog &#10095;</h2></a>
       <section class="other-categories">
         {#each blogs as entry (entry.path)}
           <RecentPost {entry} />{/each}
