@@ -1,7 +1,6 @@
 article.article {
   max-width: 38rem;
   margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 
   h1,
   h2,
@@ -9,13 +8,12 @@ article.article {
   h4,
   h5,
   h6 {
-    font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 700;
     line-height: normal;
-    color: #212121;
   }
 
   h1 {
+    font-family: 'Libre Baskerville', serif;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
@@ -24,6 +22,7 @@ article.article {
   p.author,
   p.date,
   p.reading-time {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 0;
   }
@@ -37,7 +36,7 @@ article.article {
     width: 5rem;
     margin: 1rem auto 1rem auto;
     height: 0.5rem;
-    background-color: #353535;
+    background-color: $text;
   }
 
   .title-details {
@@ -75,6 +74,7 @@ article.article {
   }
 
   section.content {
+    font-size: 1.2rem;
     p + p {
       text-indent: 3rem;
     }

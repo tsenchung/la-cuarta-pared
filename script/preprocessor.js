@@ -29,7 +29,7 @@ export function html() {
       metaObj['path'] = path;
       const contentWithoutFrontMatter = content.replace(/^\-\-\-[\s\S]*?\-\-\-/, '');
       metaObj['readingTime'] = readingTime(contentWithoutFrontMatter).minutes;
-      const c = layout(metaObj, content);
+      const c = layout(metaObj, contentWithoutFrontMatter);
       return { code: c };
     }
   }

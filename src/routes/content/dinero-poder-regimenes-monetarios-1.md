@@ -3,8 +3,6 @@ author: 'Pavlina R. Tcherneva'
 date: 2020-11-28
 linktitle: 'Dinero, poder y regímenes monetarios - Parte 1'
 title: 'Dinero, poder y regímenes monetarios - Parte 1'
-thumbnail: 'images/content/institution.webp'
-draft: false
 placement: 'regular'
 category: 'article'
 ---

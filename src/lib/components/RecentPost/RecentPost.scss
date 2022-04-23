@@ -1,7 +1,6 @@
 article.recent {
   display: flex;
   flex-direction: column;
-  grid-column: 1 span;
   padding: 1rem;
 
   .detail {
@@ -14,13 +13,13 @@ article.recent {
       font-weight: bold;
       text-align: center;
       margin-bottom: 0.5rem;
-      color: #212121;
+      color: $text;
     }
 
     p {
       text-align: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      color: #212121;
+      color: $text;
     }
   }
 }

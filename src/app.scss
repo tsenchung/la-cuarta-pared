@@ -8,17 +8,9 @@ html {
   font-size: 100%;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-a {
-  color: #008779;
-}
-
 ::selection {
-  color: black;
-  background-color: #00fbbc;
+  color: $highlight-color;
+  background-color: $highlight-background-color;
 }
 
 #app {
@@ -60,21 +52,12 @@ nav {
   margin: auto;
 }
 
-nav a.navbar-item {
-  color: #008779;
-}
-
-nav a.navbar-item:hover,
-a:hover {
-  color: #00433c;
-}
-
 footer a:hover {
-  color: #00fbbc;
+  color: $highlight-background-color;
 }
 
 .logo {
-  color: #031926 !important;
+  color: $logo-color !important;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
   font-size: 32px;
@@ -94,21 +77,21 @@ main {
 }
 
 footer {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #253d5b;
+  color: $footer-color;
+  background-color: $footer-background-color;
   font-size: 0.8rem;
 
   .footer-logo {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.87);
+    color: $footer-color;
   }
   span {
     line-height: 2;
   }
 
   a {
-    color: #fff;
+    color: $footer-color;
   }
 
   .grid {
@@ -128,10 +111,8 @@ footer {
   }
 
   h3 {
-    font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    color: white;
     margin: 0 0 1em 0;
   }
 }

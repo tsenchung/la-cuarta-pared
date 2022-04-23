@@ -3,8 +3,6 @@ author: 'Ndongo Samba Sylla'
 date: 2020-11-15
 linktitle: Cómo la deuda externa socava la soberanía
 title: Cómo la deuda externa socava la soberanía
-thumbnail: 'images/content/como-la-deuda-externa-socava-la-soberania-thumb.webp'
-draft: false
 placement: 'regular'
 category: 'article'
 ---

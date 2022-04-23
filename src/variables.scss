@@ -1,2 +1,14 @@
 /* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
 $body-overflow-y: auto;
+$body-font-family: 'Roboto', sans-serif;
+$text: #212121;
+$link: #008779;
+$link-hover: #00433c;
+$link-focus: #00433c;
+$highlight-color: black;
+$highlight-background-color: #00fbbc;
+$logo-color: #031926;
+$navbar-item-color: $link;
+$navbar-item-hover-color: $link-hover;
+$footer-color: rgba(255, 255, 255, 0.87);
+$footer-background-color: #253d5b;

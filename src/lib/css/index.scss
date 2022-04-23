@@ -1,7 +1,6 @@
 .categories {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 section.articles {
@@ -40,8 +39,9 @@ h1 {
   line-height: normal;
 }
 
-@media screen and (max-width: 550px) {
-  .list {
-    display: block;
+@media screen and (max-width: 1279px) {
+  .featured-category,
+  .other-categories {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }

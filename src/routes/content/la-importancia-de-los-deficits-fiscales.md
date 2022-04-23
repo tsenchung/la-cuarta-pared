@@ -3,9 +3,6 @@ author: 'Bill Mitchell'
 date: 2021-03-15
 linktitle: 'Entender la importancia de los déficits fiscales: análisis gráfico de la relación macroeconómica entre ingresos y gastos'
 title: 'Entender la importancia de los déficits fiscales: análisis gráfico de la relación macroeconómica entre ingresos y gastos'
-image: 'images/content/Cartoon-7-1-1024x595.webp'
-thumbnail: 'images/content/Cartoon-7-1-1024x595.webp'
-draft: false
 placement: 'regular'
 category: 'article'
 ---

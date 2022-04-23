@@ -3,8 +3,6 @@ author: 'L. Randall Wray'
 date: 2022-01-25
 linktitle: 'Comprender las políticas bajo un regímen de tipo de cambio flotante (1/3)'
 title: 'Comprender las políticas bajo un regímen de tipo de cambio flotante (1/3)'
-thumbnail: 'images/content/politicas-bajo-tipo-cambio-flotante.webp'
-draft: false
 placement: 'regular'
 category: 'article'
 ---
