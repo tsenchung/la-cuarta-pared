@@ -7,11 +7,10 @@
     author: '',
     date: '',
     path: '',
-    thumbnail: '',
     placement: '',
     linktitle: '',
-    draft: false,
-    readingTime: 1
+    readingTime: 1,
+    category: 'article'
   };
 
   function readingTime(entry) {

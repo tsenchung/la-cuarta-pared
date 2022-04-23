@@ -1,0 +1,31 @@
+article.featured {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  .detail {
+    margin: auto;
+    flex-grow: 1;
+
+    h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: $text;
+    }
+
+    p {
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: $text;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  article.featured {
+    padding: 1.5rem 0 1.5rem 0;
+  }
+}

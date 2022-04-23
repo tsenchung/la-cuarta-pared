@@ -1,16 +1,29 @@
 <script>
   import '../app.scss';
+  import Logo from '$lib/components/logo.png';
 </script>
 
 <header>
-  <nav>
-    <a href="/" class="logo"> La Cuarta Pared </a>
+  <nav class="navbar" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a href="/" class="navbar-item logo">
+        <img src={Logo} alt="" />
+        La Cuarta Pared
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/podcasts">Podcast</a>
+        <a class="navbar-item" href="/articles">Artículos</a>
+        <a class="navbar-item" href="/blog">Blog</a>
+      </div>
+    </div>
   </nav>
 </header>
 <slot />
 <footer>
   <section class="content">
-    <a href="/">La Cuarta Pared</a>
+    <a class="footer-logo" href="/">La Cuarta Pared</a>
 
     <div class="grid">
       <section class="disclaimer">

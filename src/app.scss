@@ -2,9 +2,15 @@
 @import 'bulma/sass/utilities/_all';
 @import 'bulma/sass/base/_all';
 @import 'bulma/sass/helpers/_all';
+@import 'bulma/sass/components/navbar';
 
 html {
   font-size: 100%;
+}
+
+::selection {
+  color: $highlight-color;
+  background-color: $highlight-background-color;
 }
 
 #app {
@@ -25,19 +31,41 @@ div.progress {
 }
 
 @keyframes progressBar {
-  0% { left: -25% }
-  50% { left: 125%}
-  100% { left: -25% }
+  0% {
+    left: -25%;
+  }
+  50% {
+    left: 125%;
+  }
+  100% {
+    left: -25%;
+  }
 }
 
 header {
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
 }
 
 nav {
   padding: 16px 48px 0 48px;
   max-width: $fullhd;
   margin: auto;
+}
+
+footer a:hover {
+  color: $highlight-background-color;
+}
+
+.logo {
+  color: $logo-color !important;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.logo img {
+  margin-right: 7px;
+  margin-top: -2px;
 }
 
 main {
@@ -49,21 +77,21 @@ main {
 }
 
 footer {
-  color: white;
-  background-color: rgba(31,47,79,0.8);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: $footer-color;
+  background-color: $footer-background-color;
   font-size: 0.8rem;
 
+  .footer-logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    color: $footer-color;
+  }
   span {
     line-height: 2;
   }
 
   a {
-    color: #fff;
-  }
-
-  a:hover {
-    color: #A6D290;
+    color: $footer-color;
   }
 
   .grid {
@@ -83,10 +111,8 @@ footer {
   }
 
   h3 {
-    font-family: "Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;;
     font-size: 1rem;
     font-weight: 600;
-    color: white;
     margin: 0 0 1em 0;
   }
 }
@@ -97,9 +123,9 @@ footer section.content {
   padding: 3rem;
 }
 
-
 @media screen and (max-width: 550px) {
-  main, footer {
+  main,
+  footer {
     padding: 1rem 1rem 3rem 1rem;
   }
 
