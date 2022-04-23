@@ -73,6 +73,10 @@ article.article {
     list-style: disc inside;
   }
 
+  .footnote-item a {
+    word-break: break-word;
+  }
+
   section.content {
     font-size: 1.2rem;
     p + p {
