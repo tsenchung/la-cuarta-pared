@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import { markdown, html } from './script/preprocessor.js';
 import cmsMetadataResolver from './script/cmsMetadataResolver.js';
@@ -20,6 +20,7 @@ const config = {
   kit: {
     adapter: adapter(),
     prerender: {
+      default: true,
       enabled: true,
       crawl: false,
       entries: ['*']
