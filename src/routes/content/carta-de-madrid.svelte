@@ -1,11 +1,11 @@
----
+<!---
 author: "Red MMT España"
 date: 2020-11-15
 linktitle: Carta de Madrid
 title: Carta de Madrid
 placement: "regular"
 category: "article"
----
+--->
 
 <h2 id="modelo-social">
   El modelo de sociedad que queremos, para una genuina democracia social, económica y política.
@@ -68,8 +68,7 @@ category: "article"
     <div class="column is-half">
       <span style="font-size: 18pt;"
         ><a href="http://www.redmmt.es/acceso-universal-al-trabajo-digno/"
-          ><span style="color: #4661ab;"><strong>ACCESO UNIVERSAL AL EMPLEO DIGNO</strong></span
-          ></a
+          ><span style="color: #4661ab;"><strong>ACCESO UNIVERSAL AL EMPLEO DIGNO</strong></span></a
         ></span
       >
     </div>
@@ -180,31 +179,30 @@ category: "article"
 </section>
 
 <style>
-    .columns {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .reverse {
-        flex-wrap: wrap-reverse;
-    }
+  .reverse {
+    flex-wrap: wrap-reverse;
+  }
 
-    .concepts {
-        text-align: center;
-    }
+  .concepts {
+    text-align: center;
+  }
 
-    .column {
-        padding: .75rem;
-    }
+  .column {
+    padding: 0.75rem;
+  }
 
+  .is-half {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 768px) {
     .is-half {
-        width: 50%;
-        
+      width: 100%;
     }
-
-    @media screen and (max-width: 768px) {
-        .is-half {
-            width: 100%;
-        }
-    }
+  }
 </style>

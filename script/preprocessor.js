@@ -2,7 +2,7 @@ import MarkdownIt from "markdown-it";
 import FootnotePlugin from "markdown-it-footnote";
 import YAML from 'yaml';
 import readingTime from "reading-time";
-
+import { readMetadataInSvelteContent } from "./metadataService.js";
 function layout(metadata, content) {
   return `
     <script>
@@ -15,20 +15,14 @@ function layout(metadata, content) {
 
 export function html() {
   return {
-    markup({ content, filename }) {
+    markup({ filename, content }) {
       if (!filename.endsWith('.svelte')) {
-        return { code: content }
-      }
-      const metaMatches = content.match(/^\-\-\-[\s\S]*?\-\-\-/);
-      if (!metaMatches) {
         return { code: content };
       }
-      const meta = metaMatches[0];
-      let metaObj = YAML.parse(meta.replace(/^\-\-\-/, '').replace(/\-\-\-\s*$/, ''));
-      const path = filename.replace(/\.svelte$/, '/').replace(/^.*routes/, '');
-      metaObj['path'] = path;
-      const contentWithoutFrontMatter = content.replace(/^\-\-\-[\s\S]*?\-\-\-/, '');
-      metaObj['readingTime'] = readingTime(contentWithoutFrontMatter).minutes;
+      const [contentWithoutFrontMatter, metaObj] = readMetadataInSvelteContent(filename, content);
+      if (!metaObj) {
+        return { code: content };
+      }
       const c = layout(metaObj, contentWithoutFrontMatter);
       return { code: c };
     }
