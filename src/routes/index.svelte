@@ -31,33 +31,34 @@
   <title>La Cuarta Pared</title>
 </svelte:head>
 
-<main>
-  <section class="categories">
-    <section class="featured-category">
+<main class="categories">
+  <section class="featured">
+    <h1 class="visually-hidden">Featured</h1>
+    <div class="featured-category">
       {#each featured as entry (entry.path)}
         <FeaturedPost {entry} />{/each}
-    </section>
-    <hr />
-    <section class="podcasts">
-      <a href="/podcasts">Podcasts &#10095;</a>
-      <section class="other-categories">
-        {#each podcasts as entry (entry.path)}
-          <RecentPost {entry} />{/each}
-      </section>
-    </section>
-    <section class="articles">
-      <a href="/articles">Artículos &#10095;</a>
-      <section class="other-categories">
-        {#each articles as entry (entry.path)}
-          <RecentPost {entry} />{/each}
-      </section>
-    </section>
-    <section class="blog">
-      <a href="/blog">Blog &#10095;</a>
-      <section class="other-categories">
-        {#each blogs as entry (entry.path)}
-          <RecentPost {entry} />{/each}
-      </section>
-    </section>
+    </div>
+  </section>
+  <hr />
+  <section class="podcasts">
+    <h1 class="category-title"><a href="/podcasts">Podcasts &#10095;</a></h1>
+    <div class="other-categories">
+      {#each podcasts as entry (entry.path)}
+        <RecentPost {entry} />{/each}
+    </div>
+  </section>
+  <section class="articles">
+    <h1 class="category-title"><a href="/articles">Artículos &#10095;</a></h1>
+    <div class="other-categories">
+      {#each articles as entry (entry.path)}
+        <RecentPost {entry} />{/each}
+    </div>
+  </section>
+  <section class="blog">
+    <h1 class="category-title"><a href="/blog">Blog &#10095;</a></h1>
+    <div class="other-categories">
+      {#each blogs as entry (entry.path)}
+        <RecentPost {entry} />{/each}
+    </div>
   </section>
 </main>

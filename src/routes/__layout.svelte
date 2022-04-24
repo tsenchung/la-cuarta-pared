@@ -22,8 +22,8 @@
 </header>
 <slot />
 <footer>
-  <section class="content">
-    <a class="footer-logo" href="/">La Cuarta Pared</a>
+  <div class="content">
+    <h1><a class="footer-logo" href="/">La Cuarta Pared</a></h1>
 
     <div class="grid">
       <section class="disclaimer">
@@ -40,7 +40,7 @@
         </p>
       </section>
       <section class="other-sites">
-        <h3>Sitios de Interés</h3>
+        <h2>Sitios de Interés</h2>
         <p class="footer-link">
           <a href="http://www.redmmt.es/"><span>Red MMT España</span></a>
         </p>
@@ -56,5 +56,5 @@
         </p>
       </section>
     </div>
-  </section>
+  </div>
 </footer>

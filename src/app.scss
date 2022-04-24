@@ -52,6 +52,10 @@ nav {
   margin: auto;
 }
 
+.navbar-end .navbar-item {
+  font-weight: 600;
+}
+
 footer a:hover {
   color: $highlight-background-color;
 }
@@ -117,10 +121,22 @@ footer {
   }
 }
 
-footer section.content {
+footer div.content {
   max-width: $fullhd;
   margin: auto;
   padding: 3rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
 }
 
 @media screen and (max-width: 550px) {
@@ -134,7 +150,7 @@ footer section.content {
   }
 
   footer {
-    section.content {
+    div.content {
       padding: 1rem 1rem 1rem 1rem;
     }
   }

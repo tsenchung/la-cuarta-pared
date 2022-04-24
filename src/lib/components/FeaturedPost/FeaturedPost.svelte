@@ -16,7 +16,7 @@
 <article class="featured">
   <section class="detail">
     <a href={entry.path}>
-      <h1>{entry.title}</h1>
+      <h2>{entry.title}</h2>
       <p>{entry.author}</p>
     </a>
   </section>
