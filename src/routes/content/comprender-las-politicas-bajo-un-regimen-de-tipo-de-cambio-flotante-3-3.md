@@ -7,7 +7,7 @@ placement: 'regular'
 category: 'article'
 ---
 
-### Política alternativa para una nación en desarrollo
+## Política alternativa para una nación en desarrollo
 
 Supongamos que deseamos construir un conjunto alternativo de políticas para una nación en desarrollo que emite su propia moneda soberana. **El objetivo principal es lograr el pleno empleo con estabilidad de precios. Los objetivos subsidiarios podrían incluir la reducción de la pobreza, la mejora de la infraestructura pública, la promoción de la producción del consumidor interno y la provisión de servicios públicos.** En esta sección final, examinaremos lo que se ha denominado la política de “empleador de último recurso” (ELR, por sus siglas en inglés), que podría utilizarse como base de esta propuesta de política alternativa.
 
@@ -43,7 +43,7 @@ Este análisis no se aplica únicamente al emisor de la moneda de reserva intern
 
 México se enfrenta a una elección. ¿Debe continuar adoptando medidas de austeridad con la creencia equivocada de que esto es necesario para “financiar” su déficit presupuestario y comercial? ¿O debería adoptar una alternativa que le permita alcanzar el pleno empleo con una mayor estabilidad de precios?
 
-### Referencias
+## Referencias
 
 - Balbach, Anatol B. 1981. How controllable is money growth? Federal Reserve Bank of St. Louis Review. 63:April.5.
 - Bell, Stephanie. 2000. Do taxes and bonds finance government spending? Journal of Economic Issues. 34: September.603-620.

@@ -31,17 +31,17 @@ Hay varios relatos de los orígenes históricos del dinero. Los economistas come
 
 Es bien sabido que el dinero es anterior a la acuñación por casi 3,000 años. Las tablillas de arcilla (las formas más antiguas de dinero descubiertas) y varios otros tipos de instrumentos sin valor “intrínseco” habrían circulado durante miles de años antes del surgimiento de la acuñación o del comercio[^3]. De hecho, las tablillas de arcilla son cheques o balances antiguos, donde las marcas que contienen especifican cómo se puede saldar la deuda (por ejemplo, un cheque del Rey estaría inscrito “Dile a NN que entregue X al portador”), la garantía de la deuda (el hijo o la hija de alguien), los términos de la esclavitud por deuda y bancarrota.
 
-### Orígenes mesopotámicos
+## Orígenes mesopotámicos
 
 Los asiriólogos sitúan los orígenes del dinero en los templos y palacios de Mesopotamia, que desarrollaron un elaborado sistema de contabilidad interna de créditos y deudas (Hudson 2003). Estas grandes instituciones públicas desempeñaron un papel clave en el establecimiento de una unidad general de cuenta y depósito de valor (inicialmente para el mantenimiento interno de registros, pero también para la administración de precios). El dinero, en cierto sentido, evolucionó como un bien público introducido por las instituciones públicas en el proceso de estandarizar precios y pesos.
 
-### Wergild o Wergeld
+## Wergild o Wergeld
 
 Está comprobado que el dinero también se originó en los antiguos sistemas penales, que instituyeron programas de compensación de multas, similares a wergild, como un medio de saldar la deuda de alguien por actos ilícitos infligidos a una parte perjudicada (Grierson 1997; Goodhart 1998; Wray 1998). Estas deudas se liquidaron según un complejo sistema de desembolsos, que con el tiempo se centralizaron en pagos al Estado por delitos. Posteriormente, la autoridad central (ya sea un cuerpo religioso, un jefe tribal o una organización política) agregó varias multas, cuotas, aranceles e impuestos a la lista de obligaciones ineludibles de la población.
 
 Estas dos historias no son mutuamente excluyentes. Dado que en las sociedades premesopotámicas existía un sistema de deudas para las transgresiones sociales, es muy probable que las mediciones de las obligaciones sociales (deudas) también se usaran para medir las equivalencias entre las mercancías (Ingham 2004: 91). El análisis del antiguo Egipto de Henry (2004) también vincula los dos relatos.
 
-### Antiguo Egipto
+## Antiguo Egipto
 
 En Egipto, como en Mesopotamia, el dinero surgió de la necesidad de la clase dominante de mantener las cuentas de los cultivos agrícolas y los excedentes acumulados, y también sirvió como un medio para contabilizar el pago de tributos, tributos extranjeros y obligaciones tribales a los reyes y sacerdotes[^4]. Henry (2004) argumenta que antes de que las sociedades pudieran producir excedentes, no usaban el dinero. De hecho, antes de que surgiera el dinero, fue necesaria una transformación sustancial de las relaciones sociales: de una sociedad tribal igualitaria, a una estratificada y jerárquica. Una vez que los desarrollos agrícolas generaron un superávit económico, las autoridades utilizaron los impuestos como un método para transferir parte de ese excedente (los recursos reales) de la población a los palacios. La autoridad central (el rey) gravaba con impuestos a la población y determinaba cómo se podían pagar, estableciendo así la unidad de cuenta para denominar todas las deudas con el Estado (Henry 2004).
 
@@ -49,7 +49,7 @@ Una de estas unidades de cuenta en el Imperio Antiguo era el deben, pero los deb
 
 > El Estado, por lo tanto, se presenta en primer lugar como la autoridad legal que impone el pago de la cosa que se corresponde con el nombre o descripción del contrato. Pero lo hace doble, cuando además, reivindica el derecho a determinar y declarar lo que se corresponde con el nombre de […] Este derecho es reclamado por todos los Estados modernos, y lo ha sido, por lo menos, durante unos cuatro mil años. […] Hoy en día, todo el dinero civilizado está, más allá de la posibilidad de disputa, cartalista. (Keynes 1930)
 
-### Prácticas Religiosas y Justicia Redistributiva
+## Prácticas Religiosas y Justicia Redistributiva
 
 En la antigua Grecia, como en el antiguo Egipto, la aparición del dinero estuvo estrechamente ligada a la necesidad de las autoridades religiosas de controlar el flujo de excedentes. En otras palabras, el dinero se convirtió en un mecanismo público de distribución del excedente económico y de justicia. Semenova (2011: ii) explica:
 

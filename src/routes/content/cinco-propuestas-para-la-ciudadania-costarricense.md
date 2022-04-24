@@ -15,14 +15,14 @@ Durante las últimas cuatro décadas, Costa Rica -al igual que la mayoría de pa
 
 Estas y otras realidades requieren de una observación responsable, de intercambios respetuosos, solidarios y de un cambio profundo en la comprensión del marco institucional y de las herramientas legales, económicas y políticas que están al alcance de la colectividad para la búsqueda del bienestar de todas las personas. Costa Rica tiene la capacidad para ofrecer vivienda, salud y educación de calidad a todos sus habitantes, empleo para todas las personas con deseo de trabajar y seguridad social para quienes por diferentes razones no pueden hacerlo. Para ello, debemos colocar la ley y la economía al servicio de las personas, y no a las personas al servicio de éstas. En este sentido, el eje de economía del Foro de Confluencia Solidaria y la Red MMT Costa Rica hacen un llamado a la ciudadanía, a los partidos políticos y a las candidaturas a puestos de elección popular a reflexionar críticamente y tomar en consideración las siguientes propuestas que consideramos esenciales para construir una sociedad más próspera, justa y resiliente.
 
-### 1. Garantía pública de empleo
+## 1. Garantía pública de empleo
 
 La garantía pública de empleo o política de trabajo garantizado (TG) es una alternativa al desempleo cada vez más discutida en el plano internacional. Actualmente, el desempleo se utiliza como un estabilizador de precios. Es decir, para controlar la inflación se toman medidas que aumentan o mantienen el desempleo para disminuir el consumo de la población y de este modo evitar un aumento en los precios de los servicios y bienes de consumo (a lo que nos referimos comúnmente como inflación). En cambio, la garantía pública de empleo busca cumplir el mismo objetivo de estabilización de precios con una opción de empleo transicional distinta del régimen de empleo público. El programa funciona como estabilizador automático, aumentando el número de personas empleadas en él cuando baja la actividad del sector privado y reduciéndose cuando ésta crece.
 
 Su objetivo es emplear toda la capacidad productiva del país ofreciendo un trabajo temporal con salario digno a todas las personas que así lo requieran. El programa debe ser lo más pequeño posible y ocuparse de actividades no realizadas por el sector público ni privado. Se puede implementar por etapas, con diferentes mecanismos de pago y enfocarse en áreas de trabajo estratégicas de construcción de capacidad productiva, infraestructura, descarbonización, economía de los cuidados, educación y cultura, entre otros. Es un programa financiado por el gobierno central y administrado localmente según las necesidades específicas de cada comunidad.
 Finalmente, el programa de garantía pública de empleo podría ser complementado con una renta o ingreso básico para aquellas personas que no puedan participar en el programa.
 
-### 2. Reconcebir las finanzas públicas
+## 2. Reconcebir las finanzas públicas
 
 Los fundamentos económicos de la austeridad fiscal han sido ampliamente refutados desde hace al menos dos décadas. El análisis convencional de las finanzas públicas parte de la premisa de que un gobierno se debe comportar igual a un hogar o una empresa del sector privado. En otras palabras, se sostiene que el gobierno debe mantener el mismo tipo de equilibrio presupuestario que el resto de los agentes de la economía.
 
@@ -34,7 +34,7 @@ Debido a su naturaleza procíclica, las reglas fiscales han tenido un efecto neg
 
 No existe ninguna base teórica ni respaldo empírico suficiente para establecer una restricción arbitraria de la capacidad financiera de un gobierno. Por el contrario, si queremos una sociedad que asegure el bienestar de su población (incluyendo sus generaciones futuras), es necesario que se invierta en crear las condiciones necesarias en términos de vivienda, salud, educación, empleo, infraestructura y otros.
 
-### 3. Aumentar la capacidad productiva local en áreas estratégicas
+## 3. Aumentar la capacidad productiva local en áreas estratégicas
 
 La pandemia ha dejado claro que es vital que los países posean un alto grado de capacidad para producir dentro de su territorio el alimento y la energía que consumen, así como ciertas tecnologías cruciales para el bienestar de la población, en particular medicamentos y vacunas. Para esto se requiere de un plan nacional que contemple inversión en educación, investigación científica y tecnológica endógenas en áreas de importancia estratégica, promoción de sistemas de agricultura sostenibles y ecológicos de alimentos esenciales con una baja huella de carbono y de capacidad de producción farmacéutica a nivel público.
 
@@ -44,7 +44,7 @@ Además, el gobierno debe mejorar su capacidad de gestión. Parte de la solució
 
 Todas estas medidas aumentarían la capacidad productiva del país para tener una economía más resistente a eventos fuera del control interno como, por ejemplo, incrementos de precios en los mercados internacionales. La capacidad para ejecutar esta estrategia ya existe en el país, pero hasta el momento no ha existido la voluntad política para dirigir los recursos necesarios.
 
-### 4. Reducir progresivamente el endeudamiento en monedas extranjeras
+## 4. Reducir progresivamente el endeudamiento en monedas extranjeras
 
 Actualmente, el endeudamiento en moneda extranjera se justifica apelando a dos motivos principales. El primero es reducir el gasto público por concepto de pagos de interés sobre la deuda. El segundo es por la necesidad de importación de distintos bienes y servicios. El problema del endeudamiento en moneda extranjera, tanto público como privado, es que tiene un efecto distorsionante de las prioridades colectivas, pues ante la necesidad de invertir en políticas que mejoren la capacidad productiva y la calidad de vida de las personas, se impone un incentivo de protección del tipo de cambio. Proteger el tipo de cambio tiene la utilidad de estabilizar el precio de los bienes y servicios esenciales que son importados, pero también es una herramienta que protege el precio de las importaciones de lujo. Para proteger el tipo de cambio, generalmente se imponen políticas de austeridad que afectan negativamente a las poblaciones más vulnerables y que son susceptibles a la especulación financiera de diferentes entidades nacionales e internacionales.
 
@@ -54,7 +54,7 @@ Por otra parte, el endeudamiento externo no es la única vía para reducir el co
 
 En cuanto a la necesidad de importaciones, una alternativa al endeudamiento es la compra de las divisas extranjeras necesarias. Evidentemente, esto implica un riesgo de presión al alza en el tipo de cambio (devaluación) que, a su vez, representa un riesgo de estabilidad financiera según el nivel de endeudamiento público y privado en moneda extranjera. Debido a esto y a que el tipo de cambio responde a factores que están fuera de nuestro control, tal como lo hemos visto durante la pandemia, es necesario reducir progresivamente el endeudamiento en moneda extranjera. Paralelamente, el aumento en los costos de las importaciones puede ser manejado con políticas dirigidas específicamente a determinados bienes o servicios.
 
-### 5. Implementación de medidas para aumentar la progresividad
+## 5. Implementación de medidas para aumentar la progresividad
 
 El fenómeno de la desigualdad es una problemática global que se ha intensificado durante las últimas décadas. Todavía en la década de los ochenta, Costa Rica estaba posicionada como uno de los países más igualitarios de la región. A partir de los noventa, esta condición se fue deteriorando al punto en que hoy el país se encuentra entre los más desiguales del mundo. Esto se relaciona directamente con altos grados de inseguridad, violencia y desconfianza en las instituciones.
 
