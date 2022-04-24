@@ -1,6 +1,6 @@
 <script lang="ts">
   import '$lib/css/index.scss';
-  import { all } from '$lib/content';
+  import { all } from '$lib/virtual:content';
   import RecentPost from '$lib/components/RecentPost/RecentPost.svelte';
 
   const blog = all

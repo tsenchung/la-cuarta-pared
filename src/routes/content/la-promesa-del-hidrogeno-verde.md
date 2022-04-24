@@ -9,7 +9,7 @@ category: 'blog'
 
 ## La descarbonización de las actividades humanas
 
-La&nbsp; lucha contra el calentamiento global causado por la emisión excesiva de gases de efecto invernadero (CO&#x2082;, metano, etc.) es uno de los principales retos de la sociedad humana contemporánea. La principal fuente antropogénica de gases de efecto invernadero es el CO&#x2082; que se emite del uso de combustibles fósiles (derivados del petróleo o el carbón mineral) en diversas actividades humanas, como el transporte, procesos industriales, calefacción, generación de electricidad, etc. Por lo tanto, para evitar los peores efectos del cambio climático (que ya está ocurriendo) es necesario reemplazar, en todas estas actividades humanas, los combustibles fósiles por alternativas que no resulten en emisiones netas de gases de efecto invernadero. A esto se le conoce como descarbonización.
+La lucha contra el calentamiento global causado por la emisión excesiva de gases de efecto invernadero (CO&#x2082;, metano, etc.) es uno de los principales retos de la sociedad humana contemporánea. La principal fuente antropogénica de gases de efecto invernadero es el CO&#x2082; que se emite del uso de combustibles fósiles (derivados del petróleo o el carbón mineral) en diversas actividades humanas, como el transporte, procesos industriales, calefacción, generación de electricidad, etc. Por lo tanto, para evitar los peores efectos del cambio climático (que ya está ocurriendo) es necesario reemplazar, en todas estas actividades humanas, los combustibles fósiles por alternativas que no resulten en emisiones netas de gases de efecto invernadero. A esto se le conoce como descarbonización.
 
 ## Hidrógeno gris vs. hidrógeno verde
 

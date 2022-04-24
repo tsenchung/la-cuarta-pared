@@ -8,4 +8,6 @@ export interface Entry {
   tags?: string[];
   readingTime: number;
   category: string;
+  series?: string;
+  seriesSequence?: string;
 }
