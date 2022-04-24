@@ -112,9 +112,13 @@ footer {
   .other-sites {
     width: 225px;
     margin: 1rem 0 1rem 0;
+
+    li {
+      margin-bottom: 0.3rem;
+    }
   }
 
-  h3 {
+  h2 {
     font-size: 1rem;
     font-weight: 600;
     margin: 0 0 1em 0;

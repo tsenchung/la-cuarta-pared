@@ -41,19 +41,21 @@
       </section>
       <section class="other-sites">
         <h2>Sitios de Interés</h2>
-        <p class="footer-link">
-          <a href="http://www.redmmt.es/"><span>Red MMT España</span></a>
-        </p>
-        <p class="footer-link">
-          <a href="https://pileusmmt.libsyn.com/">
-            <span>The MMT Podcast with Patricia&nbsp;Pino &amp; Christian Reilly</span>
-          </a>
-        </p>
-        <p class="footer-link">
-          <a href="https://realprogressives.org/macro-n-cheese-podcast/">
-            <span>Macro and Cheese</span>
-          </a>
-        </p>
+        <ul>
+          <li class="footer-link">
+            <a href="http://www.redmmt.es/"><span>Red MMT España</span></a>
+          </li>
+          <li class="footer-link">
+            <a href="https://pileusmmt.libsyn.com/">
+              <span>The MMT Podcast with Patricia&nbsp;Pino &amp; Christian Reilly</span>
+            </a>
+          </li>
+          <li class="footer-link">
+            <a href="https://moneyontheleft.org/">
+              <span>Money on the Left</span>
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
   </div>
