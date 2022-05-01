@@ -10,4 +10,5 @@ export interface Entry {
   category: string;
   series?: string;
   seriesSequence?: string;
+  podcastUrl?: string;
 }
