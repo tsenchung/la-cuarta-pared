@@ -1,6 +1,6 @@
 <script lang="ts">
   import '$lib/css/index.scss';
-  import { all } from '$lib/virtual:content';
+  import { all, recentArticles } from '$lib/virtual:content';
   import FeaturedPost from '$lib/components/FeaturedPost/FeaturedPost.svelte';
   import RecentPost from '$lib/components/RecentPost/RecentPost.svelte';
 
@@ -11,10 +11,7 @@
 
   const recent = all.filter(({ placement }) => placement == 'regular');
 
-  const articles = recent
-    .filter(({ category }) => category == 'article')
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, 4);
+  const articles = recentArticles.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 4);
 
   const podcasts = recent
     .filter(({ category }) => category == 'podcast')

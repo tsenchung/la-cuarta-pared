@@ -1,27 +1,29 @@
-import { readMetadataInDir, readMetadataInFile } from "./metadataService.js";
-
+import { readMetadataInDir, readMetadataInFile } from './metadataService.js';
+import { Metadata } from './metadata.js';
 export default function cmsMetadataResolver() {
   const virtualModuleId = 'virtual:content';
   const resolvedVirtualModuleId = '\0' + virtualModuleId;
+  let metadataObj = new Metadata();
   let metadata = new Map();
   return {
     name: 'vite-plugin-cms-metadata-resolver',
     async buildStart() {
-      const filenames = readMetadataInDir("./src/routes/content");
+      const filenames = readMetadataInDir('./src/routes/content');
       for await (let value of filenames) {
         if (!metadata.has(value.path)) {
           metadata.set(value.path, value);
         }
+        metadataObj.metadataFound(value);
       }
     },
     resolveId(id) {
       if (id.endsWith(virtualModuleId)) {
-        return resolvedVirtualModuleId
+        return resolvedVirtualModuleId;
       }
     },
     load(id) {
       if (id.endsWith(resolvedVirtualModuleId)) {
-        return `export const all = ${JSON.stringify(Array.from(metadata.values()))};`
+        return metadataObj.render();
       }
     },
     async handleHotUpdate({ file, server, read, modules }) {
@@ -36,5 +38,5 @@ export default function cmsMetadataResolver() {
       }
       return modules;
     }
-  }
+  };
 }
