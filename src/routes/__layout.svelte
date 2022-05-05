@@ -1,13 +1,17 @@
 <script>
   import '../app.scss';
-  import Logo from '$lib/components/logo.png';
+  import Logo from '$lib/components/logo.webp';
+  import LogoWhite from '$lib/components/logo-w.webp';
 </script>
 
 <header>
   <nav class="navbar" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="/" class="navbar-item logo">
-        <img src={Logo} alt="" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset={LogoWhite} />
+          <img src={Logo} alt="" width="31" height="35" />
+        </picture>
         La Cuarta Pared
       </a>
     </div>
