@@ -67,9 +67,9 @@ footer a:hover {
   font-size: 32px;
 }
 
-.logo img {
-  margin-right: 7px;
-  margin-top: -2px;
+.logo picture {
+  margin-right: 10px;
+  display: flex;
 }
 
 main {
@@ -157,5 +157,72 @@ footer div.content {
     div.content {
       padding: 1rem 1rem 1rem 1rem;
     }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181818;
+    color: #e0e0e0 !important;
+  }
+
+  header {
+    box-shadow: none !important;
+  }
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  article.article .title-divider {
+    background-color: #e0e0e0 !important;
+  }
+
+  a {
+    color: #00fbbc;
+  }
+
+  a:hover {
+    color: #00b285;
+  }
+
+  .navbar-item {
+    color: #00fbbc;
+  }
+
+  .navbar-end .navbar-item:hover {
+    background-color: #252525 !important;
+    color: #00b285 !important;
+  }
+
+  h2 {
+    color: #e0e0e0 !important;
+  }
+
+  .logo {
+    color: #e0e0e0 !important;
+  }
+
+  .navbar {
+    background-color: #202020;
+    box-shadow: none;
+  }
+
+  p {
+    color: #e0e0e0 !important;
+  }
+
+  ::selection {
+    color: #e0e0e0;
+    background-color: $link;
+  }
+
+  header {
+    box-shadow: 0 2px 2px -2px rgba(255, 255, 255, 0.3);
+  }
+
+  footer {
+    // border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #202020;
   }
 }
