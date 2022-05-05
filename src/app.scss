@@ -183,14 +183,14 @@ footer div.content {
   }
 
   a:hover {
-    color: #00b285 !important;
+    color: #00b285;
   }
 
   .navbar-item {
     color: #00fbbc;
   }
 
-  .navbar-item:hover {
+  .navbar-end .navbar-item:hover {
     background-color: #252525 !important;
     color: #00b285 !important;
   }
