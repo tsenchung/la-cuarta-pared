@@ -1,11 +1,9 @@
 <script lang="ts">
   import '$lib/css/index.scss';
-  import { all } from '$lib/virtual:content';
+  import { articles } from '$lib/virtual:content';
   import RecentPost from '$lib/components/RecentPost/RecentPost.svelte';
 
-  const articles = all
-    .filter(({ category }) => category == 'article')
-    .sort((a, b) => b.date.localeCompare(a.date));
+  articles.sort((a, b) => b.date.localeCompare(a.date));
 </script>
 
 <svelte:head>
