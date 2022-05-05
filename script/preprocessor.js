@@ -6,11 +6,9 @@ import { readMetadataInSvelteContent } from "./metadataService.js";
 function layout(metadata, content) {
   return `
     <script>
-      import Title from '$lib/components/Title.svelte';
-      let entry = ${JSON.stringify(metadata)};
+      import Content from '$lib/components/Content/Content.svelte';
     </script>
-    <Title {entry} />
-    <section class="content">${content}</section>`;
+    <Content entry={${JSON.stringify(metadata)}}>${content}</Content>`;
 }
 
 export function html() {
