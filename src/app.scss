@@ -52,8 +52,16 @@ nav {
   margin: auto;
 }
 
+header .navbar {
+  background-color: #fcf4dc;
+}
+
 .navbar-end .navbar-item {
   font-weight: 600;
+}
+
+hr {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 footer a:hover {
@@ -161,12 +169,16 @@ footer div.content {
 }
 
 @media (prefers-color-scheme: dark) {
+  html {
+    background-color: #202020;
+  }
   body {
     background-color: #181818;
     color: #e0e0e0 !important;
   }
 
   header {
+    background-color: #202020;
     box-shadow: none !important;
   }
 
@@ -204,7 +216,7 @@ footer div.content {
   }
 
   .navbar {
-    background-color: #202020;
+    background-color: #202020 !important;
     box-shadow: none;
   }
 
@@ -222,7 +234,10 @@ footer div.content {
   }
 
   footer {
-    // border-top: 1px solid rgba(255, 255, 255, 0.1);
     background-color: #202020;
+  }
+
+  section.content strong {
+    color: #eee;
   }
 }
