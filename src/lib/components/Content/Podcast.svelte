@@ -38,7 +38,7 @@
       var offset = this.getBoundingClientRect();
       var x = e.pageX - offset.left;
 
-      Amplitude.setSongPlayedPercentage((parseFloat(x) / parseFloat(this.offsetWidth)) * 100);
+      Amplitude.setSongPlayedPercentage((x / this.offsetWidth) * 100);
     });
   });
 
