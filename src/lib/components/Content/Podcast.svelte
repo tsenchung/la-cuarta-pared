@@ -1,6 +1,5 @@
 <script lang="ts">
   import './Podcast.scss';
-  import Amplitude from 'amplitudejs';
   import PodcastCoverArt from './chompipera-cover-light.webp';
 
   import type { Entry } from '$lib/types/Entry';
@@ -16,35 +15,6 @@
     category: 'podcast',
     podcastUrl: 'http://someurl'
   };
-
-  onMount(() => {
-    Amplitude.init({
-      bindings: {
-        37: 'prev',
-        39: 'next',
-        32: 'play_pause'
-      },
-      songs: [
-        {
-          name: 'La Chompipera: El complot',
-          artist: 'La Cuarta Pared',
-          album: 'We Are to Answer',
-          url: "https://521dimensions.com/song/Ancient Astronauts - Risin' High (feat Raashan Ahmad).mp3",
-          cover_art_url: PodcastCoverArt
-        }
-      ]
-    });
-    document.getElementById('song-played-progress').addEventListener('click', function (e) {
-      var offset = this.getBoundingClientRect();
-      var x = e.pageX - offset.left;
-
-      Amplitude.setSongPlayedPercentage((x / this.offsetWidth) * 100);
-    });
-  });
-
-  onDestroy(() => {
-    Amplitude.stop();
-  });
 </script>
 
 <section class="content"><slot /></section>
