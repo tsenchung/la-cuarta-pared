@@ -1,7 +1,6 @@
 <script>
   import '../app.scss';
   import Logo from '$lib/components/logo.webp';
-  import LogoWhite from '$lib/components/logo-w.webp';
 </script>
 
 <header>

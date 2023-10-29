@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import { markdown, html } from './script/preprocessor.js';
-import cmsMetadataResolver from './script/cmsMetadataResolver.js';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,32 +14,21 @@ const config = {
       }
     }),
     markdown(),
-    html()
+    html(),
+    vitePreprocess()
   ],
   extensions: [".svelte", ".md"],
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
+		}),
     prerender: {
-      default: true,
-      enabled: true,
-      crawl: false,
-      entries: ['*']
-    },
-    browser: {
-      hydrate: true,
-      router: true
-    },
-    vite: {
-      css: {
-        preprocessorOptions: {
-          scss: {
-            additionalData: '@use "src/variables.scss" as *;'
-          }
-        }
-      },
-      plugins: [
-        cmsMetadataResolver()
-      ]
+      entries: ['*'],
+      crawl: true
     }
   }
 };
