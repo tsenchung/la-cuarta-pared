@@ -1,11 +1,7 @@
 {
-  "name": "Ubuntu",
+  "name": "Debian",
   "build": {
-    "dockerfile": "Dockerfile",
-    // Update 'VARIANT' to pick an Ubuntu version: focal, bionic
-    "args": {
-      "VARIANT": "focal"
-    }
+    "dockerfile": "Dockerfile"
   },
   // Set *default* container specific settings.json values on container create.
   "settings": {

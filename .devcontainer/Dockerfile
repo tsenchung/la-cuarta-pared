@@ -1,3 +1,3 @@
-FROM node:17.3-bullseye
+FROM node:21-bookworm
 
 
