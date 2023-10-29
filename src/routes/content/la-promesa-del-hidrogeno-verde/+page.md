@@ -86,6 +86,6 @@ Para poder garantizar prosperidad sostenible para sus poblaciones, Costa Rica y 
 [^18]: De hecho, en los últimos meses el precio de los fertilizantes sintéticos ha aumentado considerablemente por el aumento del precio internacional del gas natural (necesario para producir hidrógeno gris). Esto ha impactado negativamente a pequeños agricultores, que han visto los precios de los fertilizantes sintéticos duplicarse y hasta triplicarse. Un programa nacional de agroecología evitaría este tipo de eventos inflacionarios perjudiciales para los agricultores y en última instancia toda la sociedad, al dotar al país de mayor resiliencia.
 [^19]: <https://www.cepal.org/en/publications/47253-plan-self-sufficiency-health-matters-latin-america-and-caribbean-lines-action-and>
 [^20]: <https://www.aljazeera.com/opinions/2021/5/6/rich-countries-drained-152tn-from-the-global-south-since-1960>
-[^21]: <https://redmmt.cr/posts/carta-abierta-respuesta-de-africa-pandemia>
-[^22]: <https://redmmt.cr/posts/como-la-deuda-externa-socava-la-sobernia>
+[^21]: [Carta abierta: La respuesta de África a la pandemia exige reivindicar la soberanía económica y monetaria](/content/carta-abierta-la-respuesta-de-africa-a-la-pandemia-exige-reivindicar-la-soberania-economica-y-monetaria)
+[^22]: [Cómo la deuda externa socava la soberanía](/content/como-la-deuda-externa-socava-la-sobernia)
 [^23]: <https://newint.org/features/2021/08/09/money-ultimate-decolonizer-fjf>

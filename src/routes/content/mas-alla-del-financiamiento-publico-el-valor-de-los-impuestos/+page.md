@@ -92,7 +92,7 @@ Con la acumulación de poder, dichos grupos obtienen cada vez más influencia so
 ## Conclusión
 
 Las cuatro razones arriba mencionadas son suficientes para comprender la importancia y función de los impuestos sin necesidad de utilizar como excusa el financiamiento del gasto público. Este entendimiento es ventajoso a la hora de perseguir políticas que mejoren nuestra calidad de vida y evitar que el poder se siga concentrando en pocas manos.
-[^1]: [La deuda pública y los dólares del FMI](/posts/deuda-publica-dolares-fmi)
+[^1]: [La deuda pública y los dólares del FMI](/content/deuda-publica-y-los-dolares-del-fmi)
 [^2]: [Taxation And Primite Accumulation: The Case Of Colonial Africa](https://modernmoneynetwork.org/sites/default/files/biblio/RiPE%20Forstater.pdf)
 [^3]: [La muerte del virrey Blasco Núñez Vela y la creación de un mercado de trabajadores en el Perú virreinal](https://grepa.es/blog/la-muerte-del-virrey-blasco-n%C3%BA%C3%B1ez-vela-y-la-creaci%C3%B3n-de-un-mercado-de-trabajadores-en-el-per%C3%BA-virreinal)
 [^4]: [Pobreza y desigualdad en Costa Rica: una mirada más allá de la distribución de los ingresos](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2308-01322020000100016)

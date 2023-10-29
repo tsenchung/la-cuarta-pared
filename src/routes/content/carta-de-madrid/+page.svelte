@@ -28,7 +28,7 @@ category: "article"
   En Madrid activistas de MMT españoles e italianos delimitaron el frente de batalla colocándose en
   defensa del progreso y de la colectividad. Así nace la Carta de Madrid. Si está de acuerdo con su
   contenido, <span style="font-size: 18pt;"
-    ><a href="#formulario"><span style="color: #4661ab;"> <strong>¡fírmala!</strong></span></a
+    ><a href="https://www.redmmt.es/carta-de-madrid/#formulario"><span style="color: #4661ab;"> <strong>¡fírmala!</strong></span></a
     ></span
   >
 </p>
