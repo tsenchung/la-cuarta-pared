@@ -21,6 +21,12 @@ article.featured {
       font-family: Georgia, 'Times New Roman', Times, serif;
       color: $text;
     }
+
+    @media (prefers-color-scheme: dark) {
+      h2, p {
+        color: $dark-text;
+      }
+    }
   }
 }
 

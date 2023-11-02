@@ -12,5 +12,20 @@ $logo-color: #031926;
 $navbar-item-color: $link;
 $navbar-item-hover-color: $link-hover;
 $navbar-item-hover-background-color: darken($body-background-color, 5%);
+$text-strong: darken($text, 5%);
 $footer-color: rgba(255, 255, 255, 0.87);
 $footer-background-color: #212121;
+
+$dark-body-background-color: #001D29;
+$dark-text: #99A8A8;
+$dark-link: #30BBAF;
+$dark-link-hover: lighten($dark-link, 7%);
+$dark-link-focus: $dark-link-hover;
+
+$dark-logo-color: #93A9AE;
+$dark-navbar-item-color: #D19D00;
+$dark-navbar-item-hover-color: lighten($dark-navbar-item-color, 5%);
+$dark-navbar-item-hover-background-color: lighten($dark-body-background-color, 5%);
+$dark-footer-color: rgba(255, 255, 255, 0.87);
+$dark-footer-background-color: #212121;
+$dark-text-strong: lighten($dark-text, 5%);

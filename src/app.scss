@@ -53,7 +53,7 @@ nav {
 }
 
 header .navbar {
-  background-color: #fcf4dc;
+  background-color: $body-background-color;
 }
 
 .navbar-end .navbar-item {
@@ -69,10 +69,13 @@ footer a:hover {
 }
 
 .logo {
-  color: $logo-color !important;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
   font-size: 32px;
+}
+
+.logo.navbar-item {
+  color: $logo-color;
 }
 
 .logo picture {
@@ -169,5 +172,64 @@ footer div.content {
     div.content {
       padding: 1rem 1rem 1rem 1rem;
     }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  header .navbar {
+    background-color: $dark-body-background-color;
+  }
+
+  html {
+    background-color: $dark-body-background-color;
+  };  
+
+  body {
+    color: $dark-text;
+  }
+
+  header {
+    box-shadow: 0 2px 2px -2px rgba(255, 255, 255, 0.3);
+  }
+  
+  a {
+    color: $dark-link;
+  }
+
+  a:hover {
+    color: $dark-link-hover;
+  }
+
+  strong {
+    color: $dark-text-strong;
+  }
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .logo.navbar-item {
+    color: $dark-logo-color;
+  }
+
+  .logo.navbar-item:hover {
+    color: lighten($dark-logo-color, 7%);
+  }
+
+  a.navbar-item:hover {
+    color: $dark-navbar-item-hover-color;
+    background-color: $dark-navbar-item-hover-background-color;
+  }
+
+  .navbar-item {
+    color: $dark-navbar-item-color;
+  }
+
+  .navbar-burger {
+    color: $dark-link;
+  }
+
+  .navbar-menu {
+    background-color: $dark-body-background-color;
   }
 }

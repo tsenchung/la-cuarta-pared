@@ -1,6 +1,12 @@
 <script>
   import '../app.scss';
   import Logo from '$lib/components/logo.webp';
+  import LogoDark from '$lib/components/logo-w.webp';
+
+  function toggleMenu(el) {
+    el.target.classList.toggle('is-active');
+    document.querySelector('.navbar-menu').classList.toggle('is-active');
+  }
 </script>
 
 <header>
@@ -8,10 +14,16 @@
     <div class="navbar-brand">
       <a href="/" class="navbar-item logo">
         <picture>
+          <source media="(prefers-color-scheme: dark)" srcset={LogoDark}>
           <img src={Logo} alt="" width="31" height="35" />
         </picture>
         La Cuarta Pared
       </a>
+      <div tabindex="1" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" on:click={toggleMenu}>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </div>
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">

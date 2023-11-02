@@ -87,4 +87,10 @@ article.article {
   #audio-player img {
     margin: 0;
   }
+
+  @media (prefers-color-scheme: dark) {
+    .title-divider {
+      background-color: $dark-text;
+    }
+  }
 }
